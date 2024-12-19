@@ -1,0 +1,184 @@
+/* Dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.food-form, .food-list {
+    margin: 20px 0;
+}
+
+.food-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-form h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.food-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.food-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.food-form button:hover {
+    background-color: #218838;
+}
+
+.food-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-list h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.food-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+.food-table th, .food-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.food-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.food-table td img {
+    border-radius: 50%;
+}
+
+.food-table button {
+    background-color: #656a6e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.food-table button:hover {
+    background-color: #0056b3;
+}
+
+.food-table button:active {
+    background-color: #003366;
+}
+
+.food-table input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.food-form input,
+.food-list input {
+    background-color: #fafafa;
+}
+
+.food-form button {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard-container {
+        padding: 10px;
+    }
+
+    .food-form input, .food-list input {
+        font-size: 0.9rem;
+    }
+
+    .food-table {
+        font-size: 0.9rem;
+    }
+
+    .food-form button {
+        font-size: 1rem;
+    }
+
+    .food-list h2 {
+        font-size: 1.5rem;
+    }
+
+    .food-table button {
+        font-size: 0.9rem;
+    }
+}
+
+.cart-icon {
+    position: fixed;
+    background-color: #ff9f00;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-icon:hover {
+    background-color: #ff7f00;
+}
+.logout{
+    position: fixed;
+    top: 20px;
+    cursor: pointer;
+;}
